@@ -223,7 +223,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print("  |_|  |_|\__,_|\__|_|  |_/_/\_\/_/\_\  ");
   script.Print("                                        ");
 
-  buildid = target_info.GetBuildProp("ro.crdroid.build.version")
+  buildid = target_info.GetBuildProp("ro.matrixx.build.version")
   androidver = target_info.GetBuildProp("ro.build.version.release")
   buildidn = target_info.GetBuildProp("ro.build.id")
   buildday = target_info.GetBuildProp("ro.build.date")
